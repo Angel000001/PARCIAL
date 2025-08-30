@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Índice</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Índice de Películas y Series</title>
+  <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
   <header>
-    <h1>Índice</h1>
+    <h1>Índice de Películas y Series</h1>
+    <p>Selecciona una para ver la información detallada</p>
   </header>
-  <div class="container">
-    <div class="card">
-      <h2><a href="pelicula1.html">Breaking Bad</a></h2>
-      <img src="https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png" alt="Breaking Bad">
+
+  <main class="container">
+    <div class="grid">
+      <!-- Tarjeta 1 -->
+      <div class="card">
+        <img src="./imagenes/20061512.jpg" alt="Inception" />
+        <h2>Inception</h2>
+        <p>El Señor de los Anillos es una novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien.</p>
+        <p><a href="otroarchivo.html">Ver más sobre El señor de los anillos →</a></p>
+      </div>
+
+      <!-- Tarjeta 2 -->
+      <div class="card">
+        <img src="./imagenes/Breaking-Bad.jpg" style="width:400px; height: 400px " />
+        <h2>Breaking Bad</h2>
+        <p>Una serie sobre la transformación de Walter White en un capo.</p>
+        <p><a href="otroarchivo.html">Ver más sobre Breaking Bad →</a></p>
+      </div>
+
+      <!-- Tarjeta 3 -->
+      <div class="card">
+        <img src="./imagenes/Stranger_Things_season_2.jpg" alt="Interstellar" />
+        <h2>Stranger Things</h2>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo...</p>
+        <p><a href="otroarchivo.html">Ver más sobre Stranger Things →</a></p>
+      </div>
     </div>
-    <div class="card">
-      <h2><a href="pelicula2.html">El Señor de los Anillos</a></h2>
-      <img src="https://upload.wikimedia.org/wikipedia/en/8/87/Ringstrilogyposter.jpg" alt="El Señor de los Anillos">
-    </div>
-    <div class="card">
-      <h2><a href="pelicula3.html">Stranger Things</a></h2>
-      <img src="https://upload.wikimedia.org/wikipedia/en/f/f7/Stranger_Things_season_4.jpg" alt="Stranger Things">
-    </div>
-  </div>
+
+    <section style="margin-top: 30px; text-align: center;">
+      <a href="portada.html">← Volver a la portada</a>
+    </section>
+  </main>
 </body>
 </html>
+

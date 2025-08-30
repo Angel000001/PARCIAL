@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Portada del Trabajo</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portada de Trabajo</title>
+  <link rel="stylesheet" href="estilo.css">
+  <!--link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"-->
+  <!-- Estilos provistos por el usuario -->
 </head>
 <body>
   <header>
-    <h1>Proyecto: Mis Series y Películas Favoritas</h1>
+    <h1>UNICAES</h1>
+    <p>Facultad de Ingeniería · Departamento de Computación</p>
   </header>
-  <div class="container">
-    <div class="card">
-      <h2>Autor: Juan Pérez</h2>
-      <p>Materia: Informática</p>
-      <p>Fecha: 25 de agosto de 2025</p>
-    </div>
-    <div class="card">
-      <h2><a href="indice.html">Ir al Índice</a></h2>
-    </div>
-  </div>
+
+  <main class="container">
+    <!-- Título principal del trabajo -->
+    <section class="card">
+      <h2>Título del trabajo</h2>
+      <p class="pill">Proyecto final</p>
+      <p style="margin-top:16px; font-size:1.1rem;">
+        <strong>Tema:</strong> Desarrollo Web Moderno
+      </p>
+      <p>
+        <strong>Asignatura:</strong> Programación Web
+      </p>
+      <p>
+        <strong>Docente:</strong> Ing. Robin Castillo Saavedra
+      </p>
+    </section>
+
+    <!-- Datos del autor -->
+    <section class="card">
+      <h2>Autor</h2>
+      <ul class="meta-list">
+        <li><strong>Nombre:</strong> Ing. Robin Castillo Saavedra</li>
+        <li><strong>Carné/ID:</strong> 000000</li>
+        <li><strong>Correo:</strong> robin.castillo@catolica.edu.sv</li>
+        <li><strong>Grupo/Sección:</strong> 01</li>
+      </ul>
+    </section>
+
+    <!-- Información adicional / imagen opcional -->
+    <section class="card">
+      <h2>Información adicional</h2>
+      <p><strong>Institución:</strong> UNICAES</p>
+      <p><strong>Fecha de entrega:</strong> 29 de agosto de 2025</p>
+      <p style="margin-top: 12px;">Imagen de portada (opcional):</p>
+      <img src="./imagenes/perfil.webp" style="width:100px; height: 100px" />
+    </section>
+
+  </main>
 </body>
 </html>
+
